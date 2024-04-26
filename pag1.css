@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+* {
+    transition: all 0.3s;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 300%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background: rgba(0, 10, 20, 1) url(https://i.imgur.com/r838U7u.jpg) center no-repeat;
+}
+
+
+
+#go{
+    border-radius: 15px;
+    border: none;
+    background: #719BE6;
+    padding: 10px;
+    color: #FFFFFF;
+    box-shadow: 0 2px 10px -3px #719BE6;
+    cursor: pointer;
+   margin: 10px ;
+}
+
+.botones-contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 60%;
+    padding: 20px;
+}
+
+.tiempo{
+    font-size: 50px;
+}
+
+/* body{
+ background-color: #2c3338;
+} */
+
+
+.app{
+    background: -webkit-linear-gradient(25deg, #a306b2,#007eb5,#708574);                                          
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h1{
+    font-size:25px;
+    color: khaki;
+    font-weight: 600;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 30px;
+}
+
+.quiz{
+    padding: 20px 0;
+}
+
+.quiz h2{
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: 18px;
+
+}
+
+.btn{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]){
+    background: #222;
+    color: #fff;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next-btn{
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius:4px;
+    cursor: pointer;
+    display: none;
+
+}
+
+.correct{
+    background: #88fc08;
+}
+.incorrect{
+    background: #fc4b08;
+}
+
+
+
+html,
+body {
+    height: 100%;
+    max-width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: rgba(0, 10, 20, 1)/*  url(https://i.imgur.com/r838U7u.jpg)  */center no-repeat;
+    background-size: cover;
+    image-rendering: pixelated;
+    font-family: sans-serif
+}
+
+#space {
+    width: 100%;
+}
+
+/* follow me @nodws */
+
+#btn-twtr {
+    clear: both;
+    color: #fff;
+    border: 2px solid;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-family: sans-serif;
+    font-size: 14px;
+    width: 13em;
+    padding: 5px 10px;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    right: 10%;
+    margin: 90vh 0;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0px 3px rgba(0, 0, 0, 0.2);
+    opacity: 0.3
+}
+
+#btn-twtr:hover {
+    color: #fff;
+    opacity: 1
+}
